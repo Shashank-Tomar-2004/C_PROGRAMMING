@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+float main() {
+
+    float amt,rt,t;
+    printf("Enter amount");
+    scanf("%f",&amt);
+    printf("enter rate");
+    scanf("%f", &rt);
+    printf("enter time");
+    scanf("%f",&t);
+    printf("simple interest is %f",(amt*rt*t)/100);
+   
+    return 0;
+}
